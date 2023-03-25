@@ -26,7 +26,7 @@ export default function About(){
                 <p className={styles.box_content}>
                     We understand that <span style={{color: "#6B5AB0"}}>unique challenges</span> facing server hosting
                     businesses in the <span style={{color: '#ED6464'}}>competitive</span> gaming industry, and we are
-                    <span style={{color: "#6B5AB0"}}>dedicated</span> to helping our clients <span style={{color: "#6B5AB0"}}>overcome</span> those challenges.
+                    <span style={{color: "#6B5AB0"}}> dedicated </span> to helping our clients <span style={{color: "#6B5AB0"}}>overcome</span> those challenges.
                 </p>
             </div>
         </div>

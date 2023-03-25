@@ -20,7 +20,7 @@ export default function Footer(){
                     </div>
                 </div>
                 <div className={styles.footer_box}>
-                    <img className={styles.footer_logo} src={Logo.src} alt={"Logo"} />
+                    <img className={styles.footer_logo} src={Logo.src} alt={"Logo"} onClick={(() => router.push('/'))}/>
                 </div>
                 <div className={styles.footer_box}>
                     <p className={styles.footer_box_title}>Socials</p>
