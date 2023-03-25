@@ -16,7 +16,7 @@ export default function Contact(){
             </div>
             <div className={styles.contact_form}>
                 <form action="POST">
-                    <div style={{display: 'flex'}}>
+                    <div className={styles.contact_fullname}>
                         <input className={styles.contact_input_box} id={styles.input_name} type="text" name='name' placeholder='Name' required/>
                         <input className={styles.contact_input_box} id={styles.input_surname} type="text" name='surname' placeholder='Surname' required/>
                     </div>

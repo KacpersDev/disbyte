@@ -19,7 +19,7 @@ export default function Features(){
                 <p className={styles.features_box_title}>Data <span style={{color: '#9C1A1A'}}>privacy</span> and <span style={{color: '#9C1A1A'}}>security</span></p>
                     <p className={styles.features_box_description}>
                         We prioritize the security
-                        and privacy of our clients'
+                        and privacy of our clients
                         data above all else, and we never handle client data.
                     </p>
                 </div>

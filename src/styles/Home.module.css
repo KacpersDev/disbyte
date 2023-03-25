@@ -347,6 +347,9 @@
   cursor: pointer;
   color: rgb(177, 177, 177);
 }
+.contact_fullname {
+  display: flex;
+}
 
 @media only screen and (max-width: 730px) {
   .features_boxs {
@@ -397,6 +400,22 @@
 }
 @media only screen and (max-width: 1000px) {
   .banner {
+    width: stretch;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .contact_fullname {
+    display: grid;
+    justify-content: center;
+  }
+  #input_email {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .contact_container {
+    height: 750px;
+  }
+  .contact_textarea {
     width: stretch;
   }
 }
